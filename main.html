@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<style type="text/css">
+		body
+		{
+			background-color: lightcyan;
+			color: darkcyan;
+			font-family: Comic Sans Ms;
+			text-decoration: bold;
+		}
+		button
+		{
+			background-color: white;
+			border-radius: 5px;
+			color: darkcyan;
+		}
+		button:hover
+		{
+			background-color: darkcyan;
+			color: white;
+		}
+
+	</style>
+	<title>
+		R.A.S. Connection
+	</title>
+	<h1>
+		Welcome to R.A.S. Connection
+	</h1>
+	<p>    R.A.S. Connection is made for students to check on thier homework, events,</p>
+	<p>trips, holidays</p>
+</head>
+<body>
+	<div>
+		<button onclick="HW()">
+			Homework
+		</button>
+		<button>
+			Trips
+		</button>
+		<button>
+			Holidays
+		</button>
+		<button onclick='Events()'>
+			Events
+		</button>
+		<div>
+			<a href="index.html">
+				<p></p>
+				Logout
+			</a>
+		</div>
+	</div>
+	<script type="text/javascript">
+		function Events(){
+			document.write("<body style=\"background-color: lightcyan\"><h1 style=\"color:darkcyan\">The Elections for the student council</h1><div><a href=\"main.html\">Back</a></div></body>");
+		}
+		function HW(){
+			document.write("<body style=\"background-color: lightcyan; color:darkcyan\"><h1>The homework that will be handed thursay is:</h1><ul>1) Math: Book page 99 from 10 till 22 even and 25.</ul><div><a href=\"main.html\">Back</a></div></body>");
+		}
+		function Holiday(){
+			alert("There is still no holidays soon");
+		}
+		function Trips(){
+			alert("There is still no holidays soon");
+		}
+	</script>
+</body>
+</html>
