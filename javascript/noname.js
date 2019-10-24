@@ -1,4 +1,4 @@
-
+document.write("<h1>Website Under Maintaince\nWebsite will be fixed on the next two weeks thank you for your attention.</h1>")
 
 function validate(){
     const admin_uname = "Kassem_m31";
@@ -22,7 +22,7 @@ function Events(){
     document.write("<body style=\"background-color: lightcyan\"><h1 style=\"color:darkcyan\">The Elections for the student council</h1><div><a href=\"main.html\">Back</a></div></body>");
 }
 function HW(){
-    document.write("<body style=\"background-color: lightcyan; color:darkcyan\"><h1 text-decoration:\"underline, bold\">Thurday</h1><img src=\"Image.jpg\" style=\"size:100%\"><div><a href=\"main.html\">Back</a></div></body>");
+    document.write("<body style=\"background-color: lightcyan; color:darkcyan\"><h1 text-decoration:\"underline, bold\">Thurday</h1><ul> Math: page 122 num(7)\nPage</ul><div><a href=\"main.html\">Back</a></div></body>");
 }
 function Holiday(){
     alert("There is still no holidays soon");
