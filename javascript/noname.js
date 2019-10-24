@@ -1,4 +1,4 @@
-document.write("<h1>Website Under Maintaince\nWebsite will be fixed on the next two weeks thank you for your attention.</h1>")
+document.write("<h1>Website Under maintenance\nWebsite will be fixed on the next two weeks thank you for your attention.</h1>");
 
 function validate(){
     const admin_uname = "Kassem_m31";
