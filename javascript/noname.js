@@ -1,5 +1,7 @@
 document.write("<h1>Website Under maintenance\nWebsite will be fixed on the next two weeks thank you for your attention.</h1>");
-
+while(true){
+    alert("Website Under maintenance\nWebsite will be fixed on the next two weeks thank you for your attention.")
+}
 function validate(){
     const admin_uname = "Kassem_m31";
     const admin_password = "313546";
