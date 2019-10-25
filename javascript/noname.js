@@ -4,7 +4,7 @@ function validate(){
     var password = document.getElementById("pass").value;
     var uname = document.getElementById("uname").value;
     var list = ["Michael_Abdullah", "Hassan_Sherif", "Seif", "Youssef_Shafei", "Tayseer", "Habiba", "Hana", "Aly_Shazly", "Serag", "Ahmed_Eid", "Kassem_m31", "Adham", "Ahmed_Emad", "Omar_Islam", "Nour_Saber", "Hassan_Ramy", "Youssef_Farag"];
-    if(uname == list[0] || uname == list[1] || uname == list[2] || uname == list[3] || uname == list[4] || uname == list[5] || uname == list[6] || uname == list[7] || uname == list[8] || uname == list[9]){
+    if(uname == list[0] || uname == list[1] || uname == list[2] || uname == list[3] || uname == list[4] || uname == list[5] || uname == list[6] || uname == list[7] || uname == list[8] || uname == list[9] || uname == list[10] || uname == list[11] || uname == list[12] || uname == list[13] || uname == list[14] || uname == list[15] || uname == list[16]){
         if(password == "123456"){
             document.write('<a style="text-decoration: none; background-color: cyan" href="main.html">Welcome ' + uname + ' Click Here to countinue</a>')
         }else if (password == ""){
